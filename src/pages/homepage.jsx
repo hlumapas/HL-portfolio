@@ -10,6 +10,7 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
+import Project from "../components/projects/project";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -18,6 +19,7 @@ import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 import "./styles/about.css";
+import "./styles/projects.css";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -142,8 +144,38 @@ const Homepage = () => {
 							</a>
 						</div>
 
-						<div className="homepage-projects">
-							<AllProjects />
+						<div className="homepage-second-area">
+							<div className="homepage-second-area-left-side">
+								<div className="title homepage-subheader">
+									Projects
+								</div>
+
+								<div className="project-image-container">
+									<div className="project-image-wrapper">
+										<img
+											src="HearTrans_screenshot.png"
+											alt="HearTrans"
+											className="homepage-image"
+										/>
+									</div>
+								</div>
+							</div>
+
+							<div className="homepage-first-area-right-side">
+								<div className="homepage-projects">
+									{INFO.projects.map((project, index) => (
+										// <div className="all-projects-project" key={index}>
+										<Project
+											logo={project.logo}
+											title={project.title}
+											description={project.description}
+											linkText={project.linkText}
+											link={project.link}
+										/>
+										// </div>
+									))}
+								</div>
+							</div>
 						</div>
 
 						<div className="homepage-after-title">
