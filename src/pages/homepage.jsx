@@ -16,6 +16,7 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
+import resume from "../pages/Hannah_Lumapas_Resume_2023.pdf";
 
 import "./styles/homepage.css";
 import "./styles/about.css";
@@ -78,7 +79,7 @@ const Homepage = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="home" />
+				{/* <NavBar active="home" /> */}
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
 						{/* <div style={logoStyle}>
@@ -110,7 +111,15 @@ const Homepage = () => {
 								</div>
 							</div>
 						</div>
-
+						<div className="button-container">
+							<a
+								href={resume}
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<button className="button">Resume</button>
+							</a>
+						</div>
 						<div className="homepage-socials">
 							<a
 								href={INFO.socials.github}
