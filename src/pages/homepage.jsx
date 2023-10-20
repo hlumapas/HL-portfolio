@@ -17,6 +17,7 @@ import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import "./styles/about.css";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -78,9 +79,9 @@ const Homepage = () => {
 				<NavBar active="home" />
 				<div className="content-wrapper">
 					<div className="homepage-logo-container">
-						<div style={logoStyle}>
+						{/* <div style={logoStyle}>
 							<Logo width={logoSize} link={false} />
-						</div>
+						</div> */}
 					</div>
 
 					<div className="homepage-container">
@@ -98,11 +99,11 @@ const Homepage = () => {
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
-										{/* <img
-											src="ham.jpg"
+										<img
+											src="BlueTile.png"
 											alt="about"
 											className="homepage-image"
-										/> */}
+										/>
 									</div>
 								</div>
 							</div>

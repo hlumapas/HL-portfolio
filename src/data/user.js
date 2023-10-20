@@ -14,7 +14,7 @@ const INFO = {
 	homepage: {
 		title: "Hi, I'm Hannah!",
 		description:
-			"I am a software engineer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a software engineer actively seeking a new opportunity where I can continue to grow & build! I have diverse experience in programming languages such as Python, TypeScript, JavaScript, Kotlin, Swift, SQL, and HTML/CSS, frameworks like React and Flask, and technologies like Native AWS and PostgreSQL. I have a proven track record of building scalable services, expanding data stores, and collaborating effectively with cross-functional teams. I am eager to join a dynamic team where I can make a meaningful impact.",
 	},
 
 	about: {
