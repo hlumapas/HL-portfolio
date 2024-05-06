@@ -16,7 +16,7 @@ import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
-import resume from "../pages/Hannah_Lumapas_Resume_2023.pdf";
+import resume from "../pages/MainHannahLumapasResume2024.pdf";
 
 import "./styles/homepage.css";
 import "./styles/about.css";
