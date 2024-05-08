@@ -187,6 +187,43 @@ const Homepage = () => {
 							</div>
 						</div>
 
+						<div className="title homepage-subheader">
+							Graphic Design
+						</div>
+						<div className="homepage-third-area">
+							<div class="image-grid">
+								<div className="project-image-wrapper">
+									<img
+										class="gallery__img"
+										src="WelcomeToTheCoalition.png"
+										alt="Welcome To The Coalition"
+									/>
+								</div>
+
+								<div className="project-image-wrapper">
+									<img
+										src="AskYouthSurvey.png"
+										alt="Ask Youth Survey"
+										className="homepage-image"
+									/>
+								</div>
+								<div className="project-image-wrapper">
+									<img
+										src="Case4Partnership.png"
+										alt="Case 4 Partnership"
+										className="homepage-image"
+									/>
+								</div>
+								<div className="project-image-wrapper">
+									<img
+										src="OstAtRiskForum.png"
+										alt="Ost at Risk Forum"
+										className="homepage-image"
+									/>
+								</div>
+							</div>
+						</div>
+
 						<div className="homepage-after-title">
 							<div className="homepage-works">
 								<Works />
